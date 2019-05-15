@@ -5,6 +5,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -13,6 +14,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<link href="<%=basePath %>Assets/404.css" rel="stylesheet" type="text/css" />
 		<link rel="Bookmark" href="favicon.ico" >
 		<link rel="Shortcut Icon" href="favicon.ico" />
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?d36210619c8c062be9c5de38116a9e6f";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?b1175c88707e55447bebefe85c8f2b39";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
 	</head>
 	<body>
 		<div id="mother">
