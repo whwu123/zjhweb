@@ -36,7 +36,8 @@
 }
 @media screen and (max-width:990px){
 .top,.header .head,.i_m,.fn_m,.foot,.pst,.scd{width:740px;}
-.head .logo img,.head .logo{ width:199px; height:51px;}
+/*.head .logo img,.head .logo{ width:199px; height:51px;}*/
+head .logo img,.head .logo{height:51px;}
 .head .logo{ margin-top:20px;}
 .top .lang a{ font-size:12px;}
 .head .nav_m{ width:530px;}
