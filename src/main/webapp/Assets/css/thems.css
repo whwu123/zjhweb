@@ -14,7 +14,8 @@ a:hover{ color:#FFBF00;}
 .top .search input[type="submit"]{ width:40px; height:40px; background-color:#FFC000; background-image:url(../images/icon1.png); background-repeat:no-repeat; background-position:center center; border:0; position:absolute; right:0; top:0; z-index:9; cursor:pointer;}
 .header .head{ margin:0px auto;width:1200px; height:90px; text-align:left; position:relative;}
 .head .logo{ width:232px; height:59px; float:left; margin-top:16px;}
-.head .logo img{ width:232px; height:59px; vertical-align:top;}
+/*.head .logo img{ width:232px; height:59px; vertical-align:top;}*/
+.head .logo img{  height:59px; vertical-align:top;}
 .head .nav_m{ width:830px; float:right; position:relative;}
 .head .nav{ width:100%; text-align:right;}
 .head .nav li{ display:inline-block; *display:inline; zoom:1; height:90px; position:relative; vertical-align:top; margin-left:10px;}
