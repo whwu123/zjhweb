@@ -57,6 +57,7 @@ function getDataView(newsId){
 			url: "news/newsView.do",
 			data:{id:newsId},
 			dataType:"json",
+			async: false,
 			success: function(data){
 				var title =data.title; 
 				document.title = title; 
@@ -79,6 +80,7 @@ function getDataView(newsId){
 			url: "news/getNewsAffixById.do",
 			data:{id:newsId},
 			dataType:"json",
+			async: false,
 			success: function(data){
 				if(data!=null){
 					//加载数据显示;
@@ -101,6 +103,7 @@ function getDataViewPrev(newsId){
 			url: "news/newsViewPrev.do",
 			data:{id:newsId},
 			dataType:"json",
+			async: false,
 			success: function(data){
 			//加载数据显示;
 				$("#prev").html("");
@@ -121,8 +124,8 @@ function getDataViewNext(newsId){
 			url: "news/newsViewNext.do",
 			data:{id:newsId},
 			dataType:"json",
+			async: false,
 			success: function(data){
-			
 				//加载数据显示;
 				$("#next").html("");
 				if(data.id==0){

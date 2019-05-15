@@ -388,6 +388,7 @@ var _hmt = _hmt || [];
 			   		url: "news/getNewsList.do",
 			   		data:{pageNum:pageNum,type:newstype},
 					dataType:"json",
+					async: false,
 					success: function(data){
 						$("#newsList").html("");
 						$("#totalCount").html("");
