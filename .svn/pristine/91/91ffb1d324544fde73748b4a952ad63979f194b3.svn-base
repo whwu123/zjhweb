@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>业务范围 长沙中竞恒招投标代理有限公司</title>
+<meta http-equiv="keywords" content="标书制作，标书范本，投标书代写，代做工程预算，代做工程结算">
+<meta name="description" content="长沙中竞恒招投标代理有限公司是一家专注工程类，采购类和服务类三大类工程项目的配套服务公司，涉及业务：标书制作、标书代做、标书代写、工程预算代做、资料整理公务代办，招投标咨询，招投标文件设计及制作，预（结）算及竣工资料的编制，工程图纸晒图等工程项目。" />
+<meta name="author" content="WuChunhui" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Assets/js/js_z.js"></script>
+<script type="text/javascript" src="Assets/js/my.js"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/common.css" />
+<link rel="stylesheet" type="text/css" href="Assets/css/my.css" />
+<link rel="Bookmark" href="favicon.ico" >
+<link rel="Shortcut Icon" href="favicon.ico" />
+</head>
+
+<body>
+  <div id="service">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)" class="weixin_area">
+                                <img src="Assets/images/l02.png" width="47" height="49" class="shows" />
+                                <img src="Assets/images/a.png" width="57" height="49" class="hides" />
+                                <img src="Assets/images/weixin.jpg" width="145" class="weixin" style="display:none;margin:-100px 57px 0 0" />
+                            </a>
+                        </li>
+                        <li id="tel1">
+                            <a href="https://shop221796420.taobao.com" target="_blank" >
+                                <div class="hides" style="width:161px;display:none;" id="tels1">
+                                    <div class="hides" id="p1">
+                                        <img src="Assets/images/taobao.png">
+                                    </div>
+                                    <div class="hides" id="p4"><span style="color:white;font-size:12px">点击跳转到店铺</span>
+                                    </div>
+                                </div>
+                                <img src="Assets/images/taobao.png" width="47" height="49" class="shows" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
+                                <div class="hides" style="width:161px;display:none;" id="qq">
+                                    <div class="hides" id="p1">
+                                        <img src="Assets/images/ll04.png">
+                                    </div>
+                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px">532857348</span>
+                                    </div>
+                                </div>
+                                <img src="Assets/images/l04.png" width="47" height="49" class="shows" />
+                            </a>
+                        </li>
+                        <li id="tel">
+                             <a href="tel:0731-88697165">
+                                <div class="hides" style="width:161px;display:none;" id="tels">
+                                    <div class="hides" id="p1">
+                                        <img src="Assets/images/ll05.jpg">
+                                    </div>
+                                    <div class="hides" id="p3"><span style="color:white;font-size:12px">0731-88697165</span>
+                                    </div>
+                                </div>
+                                <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
+                            </a>
+                        </li>
+                        <li id="btn">
+                            <a id="top_btn">
+                                <div class="hides" style="width:161px;display:none">
+                                    <img src="Assets/images/ll06.png" width="161" height="49" />
+                                </div>
+                                <img src="Assets/images/l06.png" width="47" height="49" class="shows" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+<!--头部-->
+ <div style="text-align: right;" id="sc">
+    <a style="cursor: pointer;"  onclick="AddFavorite(window.location,document.title)">加入收藏</a>
+    <a style="cursor: pointer;"  onclick="SetHome(this,window.location)">设置首页</a>&nbsp;
+ </div>
+<div class="header">
+	
+	<!--div class="t_bg">
+    	<div class="top">
+        	<div class="lang">
+            	<a href="" class="on">中 文</a>|
+                <a href="">English</a>
+            </div>
+            <div class="search">
+            	<input name="" type="text" placeholder="请输入关键字">
+                <input name="" type="submit" value="">
+            </div>
+        </div>
+    </div>-->
+    <div class="head clearfix">
+        <div class="logo"><a href=""><img src="Assets/images/logo.png" alt="长沙中竟恒招投标代理有限公司"/></a></div>
+        <div class="nav_m">
+            <div class="n_icon">导航栏</div>
+            <ul class="nav clearfix">
+                <li><a href="http://www.zjhbidding.com">标书</a></li>
+                <li>
+                	<a href="about.html">关于我们</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="about.html">公司简介</a></li>
+                                <li><a href="about2.html">中竞恒优势</a></li>
+                                <li><a href="about3.html">组织架构</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<a href="product.html">政策法规</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="product.html">电力法</a></li>
+                                <li><a href="product2.html">招投标法</a></li>
+                                <li><a href="product3.html">政府采购法</a></li>
+                            	<li><a href="product4.html">投标管理办法</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="now">
+                	<a href="business.html">业务范围</a>
+                	<div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                               	<li><a href="business.html">工程类标书</a></li>
+	                            <li><a href="business.html">采购类标书</a></li>
+	                            <li><a href="business.html">服务类标书</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<a href="case.html">成功案例</a>
+                	<div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="affixdown.html">附件下载</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<a href="news.html">新闻活动</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                             <ul>
+                                <li><a href="news.html">公司新闻</a></li>
+                                <li><a href="news2.html">行业新闻</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<a href="contact.html">联系我们</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                           <ul>
+                                <li><a href="contact.html">联系方式</a></li>
+                                <li><a href="book.html">客户留言</a></li>
+                                <li><a href="https://shop221796420.taobao.com" target="_blank">淘宝店铺</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--头部-->
+<!--幻灯片-->
+<div class="banner_s"><img src="Assets/upload/banner_a.jpg" alt=""/></div>
+<div class="pst_bg">
+	<div class="pst">
+    	您当前的位置：
+        <a href="business.html">业务范围</a>
+  
+    </div>
+</div>
+<div class="scd clearfix">
+	<div class="scd_l">
+    	<div class="s_name">
+        	<img src="Assets/images/t3.png" width="134" height="48" alt=""/>
+            <i>&nbsp;</i>
+        </div>
+        <ul class="s_nav">
+        	<li><a href="business.html">工程类标书</a></li>
+        	<li><a href="business.html">采购类标书</a></li>
+        	<li><a href="business.html">服务类标书</a></li>
+        	
+        </ul>
+        <div style="text-align: center;">
+		      <span>扫二维码了解更多信息</span><br/>
+		       <img src="Assets/upload/code1.jpg" alt="" width="140px"/>
+      	</div>
+    </div>
+    <div class="scd_r">
+    	<div class="r_name"><span>业务范围</span></div>
+        <div class="friend clearfix" style="font-size: 16px;">
+        	
+        	&nbsp;&nbsp;&nbsp;&nbsp;长沙中竞恒招投标代理有限公司主要提供工程类标书、采购类标书、服务类标书、其他类标书：如电力建设招标类标书、土地使用权招标类标书、店铺招标类标书等投标项目的标书编制工作。以快的速度，专业的标准，在短的时间内及时准确的为每个来客户代写招投标书。完成优秀的招标文件及投标文件。专注为大中小型企业解决一系列标书撰写策划解决方案，低成本的价格高质量的要求，符合了各大中小型企业的需求。<br/><br/>
+        	&nbsp;&nbsp;&nbsp;&nbsp;我公司设立专业的行业策划团队，不断攻克技术难关，不断提高自身能力，研讨能力，加大投入，携手与国内各行业专家学习与探讨、专研适用于各大中小型企业的招投标流程分析、问题解剖。解决了传统招投标书编制过程中的各种缺陷和弊端，总结出一套相对成熟的标书策划撰写服务方式。保证公司服务在市场的技术领域占据领先地位，解决客户后患之忧。客户的项目，公司会为客户提供相应支持，协助客户完成项目的设计优化。客户也可根据项目实际情况，申请公司委派技术人员进行实地考察和提供技术方案，协助完成招投标。<br/><br/>
+        	经营理念：信誉可靠，品质为先<br/><br/>
+        	发展理念：创新务实 ，追求卓越<br/><br/>
+     		技术理念：深入市场 ，领先一步<br/><br/>
+     		服务理念：职业水平，价值服务<br/><br/>
+     		人才理念：优秀且合适的人<br/><br/>
+     		合作理念：诚信为本，合作共赢<br/><br/>
+     		管理理念：文化的熏陶 ，制度的约束<br/><br/>
+     		长沙中竞恒招投标代理有限公司的宗旨：<span  style="color: red;">诚信为本、公正客观、客户至上</span><br/>
+     		<hr/>
+     		<p style="font-size: 18px;color: red;">我们的承诺：我们将以良好的职业道德，严谨的工作作风和较高的专业水准。讲究工作效率，努力为广大客户提供优质高效的服务</p><br/>
+     		
+        </div>
+    </div>
+</div>
+<div class="fn_bg">
+	<div class="fn_m clearfix">
+    	<ul class="code clearfix">
+        	<li>
+            	<b>关注微信公众号</b>
+                <img src="Assets/upload/code3.jpg" alt=""/>
+                <p>中竞恒招投标官方微信</p>
+            </li>
+            <li>
+            	<b>添加客服</b>
+                <img src="Assets/upload/code2.jpg" alt=""/>
+                <p>扫一扫了解更多信息</p>
+            </li>
+        </ul>
+        <ul class="f_nav clearfix">
+        	<li>
+            	<b>关于我们</b>
+                <p><a href="about.html">公司简介</a></p>
+                <p><a href="about2.html">中竞恒优势</a></p>
+                <p><a href="about3.html">组织架构</a></p>
+            </li>
+            <li>
+            	<b>政策法规</b>
+                <p><a href="product.html">电力法</a></p>
+                <p><a href="product2.html">招投标法</a></p>
+                <p><a href="product3.html">政府采购法</a></p>
+                <p><a href="product4.html">投标管理办法</a></p>
+            </li>
+            <li>
+            	
+                <b>新闻与活动</b>
+                <p><a href="news.html">公司新闻</a></p>
+                <p><a href="news2.html">行业新闻</a></p>
+                
+                <b>联系我们</b>
+                <p><a href="contact.html">联系方式</a></p>
+                <p><a href="book.html">在线留言</a></p>
+            </li>
+        </ul>
+        <div class="f_ct clearfix">
+        	<ul>
+        		<li class="clearfix">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人： 黄女士</span>
+                </li>
+            	<li class="clearfix">
+                	<img src="Assets/images/icon7.png" alt=""/>
+                    <span>地址： 湖南省长沙市天心区嘉盛国际2502</span>
+                </li>
+                <li class="clearfix">
+                	<img src="Assets/images/icon8.png" alt=""/>
+                    <span>邮箱：<a href="mailto:roadwell@xxxxx-well.com">532857348@qq.com</a></span>
+                </li><li class="clearfix">
+                	<img src="Assets/images/icon8.png" alt=""/>
+                    <span>邮编：<a href="mailto:roadwell@xxxxx-well.com">410000</a></span>
+                </li>
+                <li class="clearfix">
+                	<img src="Assets/images/icon9.png" alt=""/>
+                    <span>电话：<a href="tel:18570459997">18570459997</a></span>
+                </li>
+                <li class="clearfix">
+                	<img src="Assets/images/icon9.png" alt=""/>
+                    <span>座机：<a href="tel:0731-88697165">0731-88697165</span>
+                </li>
+           </ul>
+        </div>
+    </div>
+</div>
+<div class="f_bg">
+	<div class="foot">
+    	<img src="Assets/beian.png" style="margin-top: -3px;"/><span>湘ICP备18002957号  &nbsp;Copyright 2018  技术支持：时光工作室</span><span>网站建设：伍春晖</span><span> <span>联系电话：18665022235</span> </span>
+    </div>
+</div>
+</body>
+</html>
