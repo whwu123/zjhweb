@@ -36,7 +36,7 @@ public class NewsDaoImpl implements NewsDao {
     			news.setAuthor(rs.getString("author"));
     			news.setSources(rs.getString("sources"));
     			news.setContent(rs.getString("content"));
-    			//news.setCreatetime();
+    			news.setStaticPage(rs.getString("staticpage"));
     			news.setShowtime(sdf.format(new Date((rs.getTimestamp("createtime")).getTime())));
     			news.setType(rs.getInt("type"));
     			news.setStatus(rs.getInt("status"));
@@ -72,6 +72,7 @@ public class NewsDaoImpl implements NewsDao {
     			news.setAuthor(rs.getString("author"));
     			news.setSources(rs.getString("sources"));
     			news.setContent(rs.getString("content"));
+    			news.setStaticPage(rs.getString("staticpage"));
     			news.setShowtime(sdf.format(new Date((rs.getTimestamp("createtime")).getTime())));
     			news.setType(rs.getInt("type"));
     			news.setStatus(rs.getInt("status"));
@@ -124,6 +125,7 @@ public class NewsDaoImpl implements NewsDao {
     			news.setSources(rs.getString("sources"));
     			news.setContent(rs.getString("content"));
     			news.setShowtime(sdf.format(new Date((rs.getTimestamp("createtime")).getTime())));
+    			news.setStaticPage(rs.getString("staticpage"));
     			news.setType(rs.getInt("type"));
     			news.setStatus(rs.getInt("status"));
     			news.setImgpath(rs.getString("img"));
@@ -153,6 +155,7 @@ public class NewsDaoImpl implements NewsDao {
     			news.setTitle(rs.getString("title"));
     			news.setDescription(rs.getString("description"));
     			news.setSmallimg(rs.getString("smallimg"));
+    			news.setStaticPage(rs.getString("staticpage"));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -176,6 +179,7 @@ public class NewsDaoImpl implements NewsDao {
     			news.setTitle(rs.getString("title"));
     			news.setDescription(rs.getString("description"));
     			news.setSmallimg(rs.getString("smallimg"));
+    			news.setStaticPage(rs.getString("staticpage"));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

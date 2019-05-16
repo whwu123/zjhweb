@@ -29,7 +29,17 @@ public class News {
     
     private int affixid;
     
-    public int getAffixid() {
+    private String staticPage;
+    
+    public String getStaticPage() {
+		return staticPage;
+	}
+
+	public void setStaticPage(String staticPage) {
+		this.staticPage = staticPage;
+	}
+
+	public int getAffixid() {
 		return affixid;
 	}
 
