@@ -386,6 +386,7 @@ var _hmt = _hmt || [];
 			   		url: "news/getNewsList.do",
 			   		data:{pageNum:pageNum,type:newstype},
 					dataType:"json",
+					async: false,
 					success: function(data){
 						$("#newsList").html("");
 						$("#totalCount").html("");
@@ -395,8 +396,8 @@ var _hmt = _hmt || [];
 						//把list对象转换成数组
 						var data2 = eval(data.listData);
 						 for(var i in data2){
-						 	html +="<dl class=\"clearfix\"><dt><a href=\"newsView.html?newsId="+data2[i].id+"\"><img src='/zjhWeb"+data2[i].imgpath+"' /></a></dt>";
-							html +=" <dd><div class=\"title\"><a href=\"newsView.html?newsId="+data2[i].id+"\">"+data2[i].title+"<em>["+data2[i].showtime+"]</em></a></div>";
+						 	html +="<dl class=\"clearfix\"><dt><a href=\"viewpages/"+data2[i].staticPage+"\"><img src='/zjhWeb"+data2[i].imgpath+"' /></a></dt>";
+							html +=" <dd><div class=\"title\"><a href=\"viewpages/"+data2[i].staticPage+"\">"+data2[i].title+"<em>["+data2[i].showtime+"]</em></a></div>";
 							if(data2[i].content.length>120){
 								html +="<div class=\"des\">"+data2[i].description.substring(0,120)+"......</div>";
 							}else{
