@@ -282,7 +282,7 @@ var _hmt = _hmt || [];
             </li>
         </ul>
         <ul class="f_nav clearfix">
-        	<li>
+        	<li id="yqlj">
             	<b>友情链接</b>
                 <p><a href="product.html">电力法</a></p>
                 <p><a href="product2.html">招投标法</a></p>
@@ -388,6 +388,28 @@ var _hmt = _hmt || [];
 //       search.search(document.getElementById("cityName").value);
 //     }
 //     search.search(document.getElementById("cityName").value);
+$(function(){
+	getItems();
+});
+
+function getItems(){
+	//初始化首页新闻数据
+	$.ajax({
+		type: "POST",
+   		url: "index/getItems.do",
+		dataType:"json",
+		async: false,
+		success: function(data){
+			$("#yqlj").html("");
+			var html ="<b>友情链接</b>";
+			 var data2 = eval(data);
+			 for(var i in data2){
+			 	html +="<p><a href=\""+data2[i].fUrl+"\">"+data2[i].fTitle+"</a></p>";
+			}
+			$("#yqlj").append(html);
+	 	}
+	});
+}
 </script>
 </body>
 </html>

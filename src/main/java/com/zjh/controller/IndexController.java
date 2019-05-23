@@ -11,9 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.zjh.model.Affix;
 import com.zjh.model.Example;
+import com.zjh.model.Items;
 import com.zjh.model.News;
 import com.zjh.service.AffixService;
 import com.zjh.service.ExampleService;
+import com.zjh.service.ItemsService;
 import com.zjh.service.NewsService;
 import com.zjh.util.PageView;
 
@@ -26,7 +28,8 @@ public class IndexController {
 	private ExampleService exampleService;
 	@Resource(name="AffixService")
 	private AffixService affixService;
-	
+	@Resource(name="ItemsService")
+	private ItemsService itemsService;
 
     @RequestMapping(value ="getNews.do",produces = "text/json;charset=UTF-8")
     @ResponseBody
@@ -53,6 +56,18 @@ public class IndexController {
     	JSONArray json = JSONArray.fromObject(examples);//将java对象转换为json对象
 		String str = json.toString();//将json对象转换为字符串
 		//System.out.println(str);
+		return str;
+    }
+    /**
+     * 加载友情链接
+     */
+    @RequestMapping(value ="getItems.do",produces = "text/json;charset=UTF-8")
+    @ResponseBody
+    public String getItems() {
+    	List<Items> list = itemsService.getList();
+    	JSONArray json = JSONArray.fromObject(list);//将java对象转换为json对象
+		String str = json.toString();//将json对象转换为字符串
+		System.out.println(str);
 		return str;
     }
     @RequestMapping(value ="getAffix.do",produces = "text/json;charset=UTF-8")
@@ -95,4 +110,5 @@ public class IndexController {
 		//System.out.println(str);
 		return str;
     }
+   
 }
