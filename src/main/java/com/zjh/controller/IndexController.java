@@ -67,7 +67,7 @@ public class IndexController {
     	List<Items> list = itemsService.getList();
     	JSONArray json = JSONArray.fromObject(list);//将java对象转换为json对象
 		String str = json.toString();//将json对象转换为字符串
-		System.out.println(str);
+		//System.out.println(str);
 		return str;
     }
     @RequestMapping(value ="getAffix.do",produces = "text/json;charset=UTF-8")
