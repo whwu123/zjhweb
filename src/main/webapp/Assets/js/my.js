@@ -63,3 +63,124 @@ function SetHome(obj, vrl) {
 		}
 	}
 }
+
+function getSystemData(){
+	/*$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"gw_text"},
+		async: false,
+		success: function(data){
+			 var data2 = eval(data);
+			 $("#gw_text").html(data2.fContent)
+		}
+	});*/
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"company_person"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+			 var data2 = eval(data);
+			 $("#company_person").html(data2.fContent)
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"company_address"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+			 var data2 = eval(data);
+			 $("#company_address").html(data2.fContent)
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"company_email"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+			 var data2 = eval(data);
+			 $("#company_email").html(data2.fContent)
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"postcode"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+			 var data2 = eval(data);
+			 $("#postcode").html(data2.fContent)
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"phone"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+			 var data2 = eval(data);
+			 $("#phone").html(data2.fContent)
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"company_tel"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+				 var data2 = eval(data);
+				 $("#company_tel").html(data2.fContent)
+				 $("#dhtel").html(data2.fContent);
+			}
+			
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"company_qq"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+				 var data2 = eval(data);
+				 $("#company_qq").html(data2.fContent);
+				 $("#qqhref").attr("href","http://wpa.qq.com/msgrd?v=3&uin="+data2.fContent+"&site=qq&menu=yes")
+			}
+		}
+	});
+	$.ajax({
+		type: "POST",
+   		url: "index/getSystemData.do",
+		dataType:"json",
+		data:{"fkey":"phone2"},
+		async: false,
+		success: function(data){
+			if(data!=null){
+				 var data2 = eval(data);
+				 $("#phone2").html(data2.fContent);
+			}
+		}
+	});
+}

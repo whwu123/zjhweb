@@ -79,24 +79,25 @@ var _hmt = _hmt || [];
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
+                            <a target="_blank" id="qqhref" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
                                 <div class="hides" style="width:161px;display:none;" id="qq">
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll04.png">
                                     </div>
-                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px">532857348</span>
+                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px" id="company_qq">532857348</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l04.png" width="47" height="49" class="shows" />
                             </a>
                         </li>
+						
                         <li id="tel">
-                            < <a href="tel:0731-88697165">
+                            <a href="tel:0731-88697165">
                                 <div class="hides" style="width:161px;display:none;" id="tels">
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll05.jpg">
                                     </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px">0731-84473844</span>
+                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="dhtel">0731-84473844</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
@@ -108,7 +109,7 @@ var _hmt = _hmt || [];
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll05.jpg">
                                     </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px">15674995465</span>
+                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="phone2">1567499546500</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
@@ -598,27 +599,27 @@ var _hmt = _hmt || [];
         <div class="f_ct clearfix">
         	<ul>
         		<li class="clearfix">
-                	
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人： 黄女士</span>
+                	<img src="Assets/images/icon7.png" alt=""/>
+                    <span>联系人： <span id="company_person" style="width: 200px">黄女士</span></span>
                 </li>
             	<li class="clearfix">
                 	<img src="Assets/images/icon7.png" alt=""/>
-                    <span>地址： 长沙市雨花区香樟路469号融科东南海小区NH1栋14层1411号</span>
+                    <span>地址：<span id="company_address" style="width: 260px"> 长沙市雨花区香樟路469号融科东南海小区NH1栋14层1411号</span></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon8.png" alt=""/>
-                    <span>邮箱：<a href="mailto:roadwell@xxxxx-well.com">532857348@qq.com</a></span>
+                    <span>邮箱：<a href="mailto:roadwell@xxxxx-well.com" id="company_email">532857348@qq.com</a></span>
                 </li><li class="clearfix">
                 	<img src="Assets/images/icon8.png" alt=""/>
-                    <span>邮编：<a href="mailto:roadwell@xxxxx-well.com">410000</a></span>
+                    <span>邮编：<a href="mailto:roadwell@xxxxx-well.com" id="postcode">410000</a></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon9.png" alt=""/>
-                    <span>电话：<a href="tel:17056620999">17056620999</a></span>
+                    <span>电话：<a href="tel:17056620999" id="phone">17056620999</a></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon9.png" alt=""/>
-                    <span>座机：<a href="tel:0731-88697165">0731-84473844</span>
+                    <span>座机：<a href="tel:0731-88697165" id="company_tel">0731-84473844</span>
                 </li>
            </ul>
         </div>
@@ -632,6 +633,7 @@ var _hmt = _hmt || [];
 <script type="text/javascript">
 	$(function(){
 		getItems();
+		getSystemData();
 	// 改变字体大小
 		$("#setFont a").click(function(){
 				$(this).addClass("cur").siblings().removeClass("cur");

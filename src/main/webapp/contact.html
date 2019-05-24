@@ -14,7 +14,7 @@
 <script type="text/javascript" src="Assets/js/js_z.js"></script>
 <script type="text/javascript" src="Assets/js/my.js"></script>
 <script src="http://api.map.baidu.com/api?v=2.0&ak=A1LU7iHS0avqQwPLAxbhKn0UYSQCuRVH"></script>
-<!--  <script>
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -31,7 +31,7 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-</script>  -->
+</script>
 <link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
 <link rel="stylesheet" type="text/css" href="Assets/css/responsive.css">
 <link rel="stylesheet" type="text/css" href="Assets/css/common.css" />
@@ -64,24 +64,25 @@ var _hmt = _hmt || [];
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
+                            <a target="_blank" id="qqhref" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
                                 <div class="hides" style="width:161px;display:none;" id="qq">
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll04.png">
                                     </div>
-                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px">532857348</span>
+                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px" id="company_qq">532857348</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l04.png" width="47" height="49" class="shows" />
                             </a>
                         </li>
+						
                         <li id="tel">
-                             <a href="tel:0731-88697165">
+                            <a href="tel:0731-88697165">
                                 <div class="hides" style="width:161px;display:none;" id="tels">
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll05.jpg">
                                     </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px">0731-84473844</span>
+                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="dhtel">0731-84473844</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
@@ -93,7 +94,7 @@ var _hmt = _hmt || [];
                                     <div class="hides" id="p1">
                                         <img src="Assets/images/ll05.jpg">
                                     </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px">15674995465</span>
+                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="phone2">1567499546500</span>
                                     </div>
                                 </div>
                                 <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
@@ -253,14 +254,14 @@ var _hmt = _hmt || [];
     	<div class="r_name"><span>联系我们</span></div>
         <div class="cotnact">
         	<h1>湖南中楷众拓项目管理咨询有限公司</h1>
-            <ul class="clearfix">
-                <li>
+           <!--  <ul class="clearfix">
+                <li >
                     <p>地址：长沙市雨花区香樟路469号融科东南海小区NH1栋14层1411号</p>
                     <p>电话：17056620999</p>
                     <p>固话：0731-84473844</p>
                     <p>邮箱：532857348@qq.com</p>
                 </li>
-            </ul>
+            </ul> -->
             
         </div>
         	<!-- <input type="text" id="cityName" value="湖南省长沙市雨花区融科·东南海B区(曲塘路南) "/> 
@@ -315,27 +316,27 @@ var _hmt = _hmt || [];
         <div class="f_ct clearfix">
         	<ul>
         		<li class="clearfix">
-                	
-                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人： 黄女士</span>
+                	<img src="Assets/images/icon7.png" alt=""/>
+                    <span>联系人： <span id="company_person" style="width: 200px">黄女士</span></span>
                 </li>
             	<li class="clearfix">
                 	<img src="Assets/images/icon7.png" alt=""/>
-                    <span>地址： 长沙市雨花区香樟路469号融科东南海小区NH1栋14层1411号</span>
+                    <span>地址：<span id="company_address" style="width: 260px"> 长沙市雨花区香樟路469号融科东南海小区NH1栋14层1411号</span></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon8.png" alt=""/>
-                    <span>邮箱：<a href="mailto:roadwell@xxxxx-well.com">532857348@qq.com</a></span>
+                    <span>邮箱：<a href="mailto:roadwell@xxxxx-well.com" id="company_email">532857348@qq.com</a></span>
                 </li><li class="clearfix">
                 	<img src="Assets/images/icon8.png" alt=""/>
-                    <span>邮编：<a href="mailto:roadwell@xxxxx-well.com">410000</a></span>
+                    <span>邮编：<a href="mailto:roadwell@xxxxx-well.com" id="postcode">410000</a></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon9.png" alt=""/>
-                    <span>电话：<a href="tel:17056620999">17056620999</a></span>
+                    <span>电话：<a href="tel:17056620999" id="phone">17056620999</a></span>
                 </li>
                 <li class="clearfix">
                 	<img src="Assets/images/icon9.png" alt=""/>
-                    <span>座机：<a href="tel:0731-88697165">0731-84473844</span>
+                    <span>座机：<a href="tel:0731-88697165" id="company_tel">0731-84473844</span>
                 </li>
            </ul>
         </div>
@@ -411,6 +412,7 @@ var _hmt = _hmt || [];
      search.search(document.getElementById("cityName").value);  */
 $(function(){
 	getItems();
+	getSystemData();
 });
 
 function getItems(){
