@@ -17,5 +17,9 @@ public class ItemsServiceImpl implements ItemsService {
 	public List<Items> getList() {
 		return itemsDao.getList();
 	}
+	@Override
+	public Items gtItemsByKey(String fKey) {
+		return itemsDao.gtItemsByKey(fKey);
+	}
 
 }

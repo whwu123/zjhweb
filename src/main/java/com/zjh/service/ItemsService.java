@@ -10,4 +10,8 @@ public interface ItemsService {
 	 * @return
 	 */
 	public List<Items> getList();
+	/**
+	 * 根据关键词找到信息
+	 */
+	public Items gtItemsByKey(String fKey);
 }
