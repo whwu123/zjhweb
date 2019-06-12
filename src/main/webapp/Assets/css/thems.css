@@ -20,7 +20,7 @@ a:hover{ color:#FFBF00;}
 .head .nav{ width:100%; text-align:right;}
 .head .nav li{ display:inline-block; *display:inline; zoom:1; height:90px; position:relative; vertical-align:top; margin-left:10px;}
 .head .nav li a{ font-size:16px; width:104px; height:36px; text-align:center; line-height:36px; color:#111111; display:inline-block; *display:inline; zoom:1; vertical-align:top; margin-top:27px;}
-.head .nav li.now a,.head .nav li:hover a{ color:#FFF; background:#1DA4F5; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.head .nav li.now a,.head .nav li:hover a{ color:#FFF; background:#1458b9; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
 .head .nav li .er{ width:150px; position:absolute; left:-28px; top:90px; z-index:999; display:none;}
 .head .nav li:hover .er{ display:block;}
 .head .nav li .er .er_m{ width:100%; position:relative;}
@@ -124,7 +124,7 @@ a:hover{ color:#FFBF00;}
 .fn_m .f_ct ul li img{ width:16px; height:16px; vertical-align:top; margin-top:5px;}
 .fn_m .f_ct ul li span{ display:inline-block; *display:inline; zoom:1; width:300px; vertical-align:top; line-height:150%;}
 .fn_m .f_ct ul li a{ color:#FFF;}
-.f_bg{ width:100%; padding:15px 0 4px; background:#1DA4F5;}
+.f_bg{ width:100%; padding:15px 0 4px; background:#1458b9;}
 .foot{ width:1200px; margin:0px auto; text-align:center; font-size:13px; color:#FFF;}
 .foot span{ display:inline-block; *display:inline; zoom:1; vertical-align:top; margin:0 5px 5px;}
 .pst_bg{ width:100%; height:72px; background:url(../images/bg_5.jpg) repeat-x;}
@@ -211,7 +211,7 @@ a:hover{ color:#FFBF00;}
 .book_m ul li textarea{ width:470px; height:170px; border:1px solid #ddd; line-height:175%;}
 .book_m ul li input[type="submit"]{ width:100px; text-align:center; color:#fff; cursor:pointer; background-color:#0065E9; color:#FFFFFF; }
 #sc{
-	background: #1DA4F5;
+	background: #1458b9;
 	height: 24px;
 	line-height: 24px;
 }
