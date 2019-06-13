@@ -57,7 +57,7 @@ var _hmt = _hmt || [];
 }
 #lcfw2 ul li {
     background-color: #1766d1;
-    color: #fff;
+    color: #f5f5f5;
     /* padding: 0px 0 5px 0; */
     width: 250px;;
     height: 30px;
@@ -81,7 +81,7 @@ var _hmt = _hmt || [];
 }
 #lcfw ul li {
     background-color: #1766d1;
-    color: #fff;
+    color: #f5f5f5;
     /* padding: 0px 0 5px 0; */
     width: 250px;;
     height: 30px;
@@ -118,6 +118,12 @@ var _hmt = _hmt || [];
     height: 34px;
     line-height: 32px;
 }
+.ysdiv{
+	height: 30px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
 </style>
 </head>
 
@@ -131,106 +137,8 @@ var _hmt = _hmt || [];
     <a style="cursor: pointer;"  onclick="AddFavorite(window.location,document.title)">加入收藏</a>
     <a style="cursor: pointer;"  onclick="SetHome(this,window.location)">设置首页</a>&nbsp;
  </div>
-<div class="header">
-
-    <div class="head clearfix">
-        <!-- <div class="logo"><a href=""><img src="Assets/images/logo.png" alt="湖南中楷众拓项目管理咨询有限公司"/></a></div> -->
-        <div class="logo" >
-        	<img src="Assets/images/2.png" alt="湖南中楷众拓项目管理咨询有限公司"/>
-        </div>
-        <div class="nav_m">
-            <div class="n_icon">导航栏</div>
-            <ul class="nav clearfix">
-                <li class="now"><a href="http://www.zjhbidding.com">首页</a></li> 
-               <!--  <li class="now"><a href="index.html">首页</a></li> -->
-                <li>
-                	<a href="about.html">关于我们</a>
-                    <div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                                <li><a href="about.html">公司简介</a></li>
-                                <li><a href="about2.html">中楷众拓优势</a></li>
-                                <li><a href="about3.html">组织架构</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                	<a href="business.html">招标代理</a>
-                    <div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                                <li><a href="business.html" style="color: #BD0E2A;">招标代理业务</a></li>
-                                <li><a href="business.html" style="color: #BD0E2A;">代做标书流程</a></li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                	<a href="business.html">主营业务</a>
-                	<div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                            	<li ><a href="business.html" style="color: #BD0E2A;">项目招标代理</a></li>
-                            	<li><a href="business.html">投标书制作</a></li>
-                            	<li><a href="business.html">工程预算</a></li>
-                            	<li><a href="business.html">工程结算</a></li>
-                            	<li><a href="business.html">开竣工资料</a></li>
-                            	<li><a href="business.html">工程技术咨询服务</a></li>
-                            	<li><a href="business.html">工程监理服务</a></li>
-                            	<li><a href="business.html">工程概算编制</a></li>
-                            	
-	                            <!-- <li><a href="business.html">工程类标书</a></li>
-	                            <li><a href="business.html">采购类标书</a></li>
-	                            <li><a href="business.html">服务类标书</a></li> -->
-                              
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                	<a href="case.html">成功案例</a>
-                	<div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                                <li><a href="affixdown.html">附件下载</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                	<a href="news.html">新闻资讯</a>
-                    <div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                                <li><a href="news.html">公司新闻</a></li>
-                                <li><a href="news2.html">行业新闻</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                	<a href="contact.html">联系我们</a>
-                    <div class="er">
-                    	<div class="er_m">
-                            <i>&nbsp;</i>
-                            <ul>
-                                <li><a href="contact.html">联系方式</a></li>
-                                <li><a href="book.html">客户留言</a></li>
-                                <li><a href="https://shop221796420.taobao.com" target="_blank">淘宝店铺</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="header" id="headerDiv">
+    
 </div>
 <!--头部-->
 <!--幻灯片-->
@@ -268,32 +176,32 @@ var _hmt = _hmt || [];
                     <div>
                         <img src="Assets/images/handshake.png" width="60">
                     </div>
-                    <div style="height: 30px;font-size: 20px">高品质服务</div>
+                    <div class="ysdiv">高品质服务</div>
                 </li>
                 <li>
                     <div>
                         <img src="Assets/images/like.png" style="width: 60px"></div>
-                   <div style="height: 30px;font-size: 20px"> 专业经验</div>
+                   <div class="ysdiv"> 专业经验</div>
                 </li>
                 <li>
                     <div>
                         <img src="Assets/images/users.png" width="60"></div>
-                    <div style="height: 30px;font-size: 20px">  专业的团队</div>
+                    <div class="ysdiv">  专业的团队</div>
                 </li>
                 <li>
                     <div>
                         <img src="Assets/images/custom.png" style="width: 60px"></div>
-                   <div style="height: 30px;font-size: 20px">量身定制</div>
+                   <div class="ysdiv">量身定制</div>
                 </li>
                 <li>
                     <div>
                         <img src="Assets/images/aixin.png" style="width: 60px"></div>
-                   <div style="height: 30px;font-size: 20px">客户至上</div>
+                   <div class="ysdiv">客户至上</div>
                 </li>
                 <li>
                     <div>
                         <img src="Assets/images/deng.jpg" style="width: 60px"></div>
-                   <div style="height: 30px;font-size: 20px">满意为止</div>
+                   <div class="ysdiv">满意为止</div>
                 </li>
     </ul>
 </div>
@@ -301,7 +209,7 @@ var _hmt = _hmt || [];
 	<div class="lcfwbt">
 		湖南中楷众拓主营业务
 	</div>
-	<p style="font-size: 20px;margin-bottom: 30px;font-weight: bold">招标代理流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
+	<p style="font-size: 20px;margin-bottom: 30px;color: black;">招标代理流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
     <ul>
     	<li><span>>></span>                     1.项目立项</li>
 	    <li><span>>></span>                     2.建设工程项目报建</li>
@@ -323,7 +231,7 @@ var _hmt = _hmt || [];
 </div>
 
 <div class="i_m" id="lcfw2">
-	<p style="font-size: 20px;margin-bottom: 30px;font-weight: bold ;    float: left; width:100%">代做标书服务流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
+	<p style="font-size: 20px;margin-bottom: 30px;color: black; float: left; width:100%">代做标书服务流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
     <ul id="dzbsfwul">
     	<li><span>>></span>                     1.项目立项</li>
 	    <li><span>>></span>                     2.建设工程项目报建</li>
@@ -346,10 +254,7 @@ var _hmt = _hmt || [];
 		<img src="Assets/images/n1.png" width="171" height="59" alt=""/>
 		</a>
 	</div>
-    <ul class="i_ma clearfix"  id="exampleList">
-    	
-      
-    </ul>
+    <ul class="i_ma clearfix"  id="exampleList">  </ul>
 </div>
 
 
@@ -375,7 +280,7 @@ var _hmt = _hmt || [];
             </div>
             <dl class="i_mc clearfix">
             	<dt><a href="about.html"><img src="Assets/upload/pic5.png" alt=""/></a></dt>
-                <dd>
+                <dd style="color: black;">
                 	<p style="text-indent:2em;font-size: 14px;">湖南中楷众拓项目管理咨询有限公司，前身为”中意标书工作室”，成立于2014年3月,是一家专注工程类，采购类和服务类三大类工程项目的配套服务公司。</p>
 	                <p style="text-indent:2em;font-size: 14px;">涉及业务： 1.招投标文件的编制；2.项目预（结）算；3.招标代理，可研，监理；4.项目开竣工资料；5.招投标公务代办</p>
 					<p style="text-indent:2em;font-size: 14px;">公司拥有一支专业的技术团队，经过长期的实践和招贤纳士，团队实力越发强大。目前，公司储备了各行业丰富的专业人才，随时可为各行业公司企业做好工程项目各类服务。同时，积极整合社会各界资源，与各类大中型企业和事业单位加强联系，并聘请多位专家学者为公司的技术顾问，为不断提升服务质量打下了坚实的基础！</p>
@@ -400,6 +305,7 @@ var _hmt = _hmt || [];
 $(function(){
 	$('#service').load('top.html');
 	$('#bottomdiv').load('bottom.html');
+	$('#headerDiv').load('header.html');
 	getExample();
 	getNews();
 	//getItems();
@@ -489,6 +395,9 @@ function getNews(){
 	 	}
 	});
 }
+window.onload=function(){ 
+	$("#sy").addClass("now");
+} 
 </script>
 </body>
 </html>
