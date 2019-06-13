@@ -44,74 +44,7 @@ var _hmt = _hmt || [];
 </head>
 
 <body>
- <div id="service">
-                    <ul>
-                        <li>
-                            <a href="javascript:void(0)" class="weixin_area">
-                                <img src="Assets/images/l02.png" width="47" height="49" class="shows" />
-                                <img src="Assets/images/a.png" width="57" height="49" class="hides" />
-                                <img src="Assets/images/weixin.jpg" width="145" class="weixin" style="display:none;margin:-100px 57px 0 0" />
-                            </a>
-                        </li>
-                        <li id="tel1">
-                            <a href="https://shop221796420.taobao.com" target="_blank" >
-                                <div class="hides" style="width:161px;display:none;" id="tels1">
-                                    <div class="hides" id="p1">
-                                        <img src="Assets/images/taobao.png">
-                                    </div>
-                                    <div class="hides" id="p4"><span style="color:white;font-size:12px">点击跳转到店铺</span>
-                                    </div>
-                                </div>
-                                <img src="Assets/images/taobao.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" id="qqhref" href="http://wpa.qq.com/msgrd?v=3&uin=532857348&site=qq&menu=yes">
-                                <div class="hides" style="width:161px;display:none;" id="qq">
-                                    <div class="hides" id="p1">
-                                        <img src="Assets/images/ll04.png">
-                                    </div>
-                                    <div class="hides" id="p2"><span style="color:#FFF;font-size:13px" id="company_qq">532857348</span>
-                                    </div>
-                                </div>
-                                <img src="Assets/images/l04.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-						
-                        <li id="tel">
-                            <a href="tel:0731-88697165">
-                                <div class="hides" style="width:161px;display:none;" id="tels">
-                                    <div class="hides" id="p1">
-                                        <img src="Assets/images/ll05.jpg">
-                                    </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="dhtel">0731-84473844</span>
-                                    </div>
-                                </div>
-                                <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-						<li id="tel1">
-                            <a href="tel:15674995465">
-                                <div class="hides" style="width:161px;display:none;" id="tels1">
-                                    <div class="hides" id="p1">
-                                        <img src="Assets/images/ll05.jpg">
-                                    </div>
-                                    <div class="hides" id="p3"><span style="color:white;font-size:12px" id="phone2">1567499546500</span>
-                                    </div>
-                                </div>
-                                <img src="Assets/images/l05.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-                        <li id="btn">
-                            <a id="top_btn">
-                                <div class="hides" style="width:161px;display:none">
-                                    <img src="Assets/images/ll06.png" width="161" height="49" />
-                                </div>
-                                <img src="Assets/images/l06.png" width="47" height="49" class="shows" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+ <div id="service">  </div>
 <!--头部-->
 <div style="text-align: right;" id="sc">
     <a style="cursor: pointer;"  onclick="AddFavorite(window.location,document.title)">加入收藏</a>
@@ -141,15 +74,14 @@ var _hmt = _hmt || [];
                     </div>
                 </li>
                 <li>
-                	<a href="product.html">政策法规</a>
+                	<a href="business.html">招标代理</a>
                     <div class="er">
                     	<div class="er_m">
                             <i>&nbsp;</i>
                             <ul>
-                                <li><a href="product.html">电力法</a></li>
-                                <li><a href="product2.html">招投标法</a></li>
-                                <li><a href="product3.html">政府采购法</a></li>
-                            	<li><a href="product4.html">投标管理办法</a></li>
+                                <li><a href="business.html" style="color: #BD0E2A;">招标代理业务</a></li>
+                                <li><a href="business.html" style="color: #BD0E2A;">代做标书流程</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -331,6 +263,7 @@ var _hmt = _hmt || [];
 <script type="text/javascript">
 
 	$(function(){
+		$('#service').load('top.html');
 		getCaseAll();
 		getItems();
 		getSystemData();
