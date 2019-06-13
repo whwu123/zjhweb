@@ -330,7 +330,7 @@ function getExample(){
 		type: "POST",
    		url: "index/getExample.do",
 		dataType:"json",
-		async: false,
+		///async: false,
 		success: function(data){
 			$("#exampleList").html("");
 			var html ="";
@@ -375,7 +375,7 @@ function getNews(){
 		type: "POST",
    		url: "index/getNews.do",
 		dataType:"json",
-		async: false,
+		//async: false,
 		success: function(data){
 			$("#newsList").html("");
 			var html ="";
