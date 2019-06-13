@@ -112,13 +112,13 @@ head .logo img,.head .logo{height:51px;}
 .i_mc dt{ width:314px;}
 .i_mc dt img, .i_mc dt{ width:314px; height:320px;}
 .i_md dt, .i_md dt img{ width:320px; height:230px;}
-.fn_m .f_nav li{ margin-right:10px;}
+.fn_m .f_nav li{ margin-right:2px;}
 .scd_l .s_nav{ width:310px;}
 .scd_l .s_nav li a{ width:280px;}
 .fn_m .code li b, .f_nav li b{ font-size:15px;}
 .f_nav li p,.fn_m .code li p{ font-size:12px;}
 .pst{ font-size:14px;}
-.fn_m .code li{ margin-right:70px;}
+.fn_m .code li{ margin-right:40px;}
 .pro dl{ height:146px;}
 .pro dl dt img,.pro dl dt{ width:140px; height:140px;}
 .pro dl dd{ width:160px;}

@@ -121,7 +121,7 @@ a:hover{ color:#FFBF00;}
 .fn_m .f_ct{ width:320px; float:right; font-size:13px;}
 .fn_m .f_ct ul{ width:100%; margin-bottom:15px;} 
 .fn_m .f_ct ul li{ margin-bottom:10px;}
-.fn_m .f_ct ul li img{ width:16px; height:16px; vertical-align:top; margin-top:5px;}
+.fn_m .f_ct ul li img{ width:16px; height:16px; vertical-align:top; margin-top:0px;padding-top: 2px;}
 .fn_m .f_ct ul li span{ display:inline-block; *display:inline; zoom:1; width:300px; vertical-align:top; line-height:150%;}
 .fn_m .f_ct ul li a{ color:#FFF;}
 .f_bg{ width:100%; padding:15px 0 4px; background:#1458b9;}
