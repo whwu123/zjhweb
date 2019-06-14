@@ -124,7 +124,7 @@ var _hmt = _hmt || [];
 	
 	<script type="text/javascript">
 	$(function(){
-		//getItems();
+		getItems();
 		//getSystemData();
 	});
 		
@@ -133,7 +133,7 @@ var _hmt = _hmt || [];
 				type: "POST",
 		   		url: "index/getItems.do",
 				dataType:"json",
-				async: false,
+				//async: false,
 				success: function(data){
 					$("#yqlj").html("");
 					var html ="<b>友情链接</b>";
