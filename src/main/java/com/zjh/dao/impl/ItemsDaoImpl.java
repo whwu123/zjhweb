@@ -21,7 +21,7 @@ public class ItemsDaoImpl implements ItemsDao {
 	public List<Items> getList() {
 		List<Items> list = new ArrayList<Items>();
 		try {
-			String sql = " select * from items where f_status = 1 and f_type = 1 ORDER BY f_status desc limit 0,7";
+			String sql = " select * from items where f_status = 1 and f_type = 1 ORDER BY f_status desc limit 0,5";
 			connection = JdbcUtil.getConnection();
 			ps = connection.prepareStatement(sql);
 			rs = ps.executeQuery();
