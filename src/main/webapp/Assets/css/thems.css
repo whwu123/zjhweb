@@ -89,7 +89,7 @@ a:hover{ color:#FFBF00;}
 .i_mb dl dd .time{ width:100%; height:25px; line-height:25px; text-align:right; position:relative; font-size:12px; color:#888;}
 .i_mb dl dd .time a{ display:block; font-size:12px; color:#0062DA; position:absolute; left:0; top:0; }
 .i_mc{ width:100%; padding-top:20px;}
-.i_mc dt{ width:200px; height:205px; border:1px solid #ccc; float:left;}
+.i_mc dt{ width:210px; height:210px; /* border:1px solid #ccc; */ float:left;}
 .i_mc dt img{ width:210px; height:210px; vertical-align:top;}
 .i_mc dd{ width:310px; float:right;}
 .i_mc dd ul{ width:100%;}

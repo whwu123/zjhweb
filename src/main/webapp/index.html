@@ -51,6 +51,7 @@ var _hmt = _hmt || [];
  	width:  320px;
  	text-align: center;
  	margin-top: 24px;
+ 	margin-left: 20px;
  }
 #ystb img{
 	margin-top:34px;
@@ -59,7 +60,7 @@ var _hmt = _hmt || [];
     background-color: #1766d1;
     color: #f5f5f5;
     /* padding: 0px 0 5px 0; */
-    width: 250px;;
+    width: 320px;;
     height: 30px;
     line-height: 30px;
    /*  border-radius: 4px;
@@ -83,7 +84,7 @@ var _hmt = _hmt || [];
     background-color: #1766d1;
     color: #f5f5f5;
     /* padding: 0px 0 5px 0; */
-    width: 250px;;
+    width: 320px;;
     height: 30px;
     line-height: 30px;
     /* border-radius: 4px; */
@@ -168,8 +169,11 @@ var _hmt = _hmt || [];
 
 <!-- 我们的优势 -->
 <div class="i_m" id="advantage">
-	<div class="lcfwbt">
+	<div style="font-size: 30px;font-weight: 600; margin: 0; padding: 0;width: 100%;text-align: center;">
 		湖南中楷众拓优势
+	</div>
+	<div style="clear: both; width: 100%; text-align: center; margin-top: 10px">
+		<img src="images/cd.png"/>
 	</div>
     <ul class="i_ma clearfix" id="ystb">
     			<li>
@@ -206,11 +210,15 @@ var _hmt = _hmt || [];
     </ul>
 </div>
 <div class="i_m" id="lcfw">
-	<div class="lcfwbt">
-		湖南中楷众拓主营业务
+	<!-- <div class="lcfwbt"> -->
+	<div style="font-size: 30px;font-weight: 600; margin: 0; padding: 0;width: 100%;text-align: center;">
+		湖南中楷众拓业务范围
 	</div>
-	<p style="font-size: 20px;margin-bottom: 30px;color: black;">招标代理流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
-    <ul>
+	<div style="clear: both; width: 100%; text-align: center; margin-top: 10px">
+		<img src="images/cd.png"/>
+	</div>
+	<p style="font-size: 14px;margin-bottom: 20px;color: black;width: 100%;margin-top: 16px">招标代理流程 &nbsp;一站式专业策划团队，省时，高标准</p>
+    <ul style="    text-align: center">
     	<li><span>>></span>                     1.项目立项</li>
 	    <li><span>>></span>                     2.建设工程项目报建</li>
 	    <li><span>>></span>                     3.建设单位招标资格</li>
@@ -226,13 +234,13 @@ var _hmt = _hmt || [];
 		<li><span>>></span>                     13.定标</li>
 		<li><span>>></span>                     14.发出中标通知书</li>
 		<li><span>>></span>                     15.谈判及签约</li>
-		<li><span>>></span>                     16.退回投标保证金</li>
+		<!-- <li><span>>></span>                     16.退回投标保证金</li> -->
     </ul>
 </div>
 
 <div class="i_m" id="lcfw2">
-	<p style="font-size: 20px;margin-bottom: 30px;color: black; float: left; width:100%">代做标书服务流程 &nbsp;↓↓↓ 一站式专业策划团队，省时，高标准</p>
-    <ul id="dzbsfwul">
+	<p style="font-size: 14px;margin-bottom: 20px;color: black;width: 100%;;float: left;">代做标书流程 &nbsp;一站式专业策划团队，省时，高标准</p>
+    <ul id="dzbsfwul" style="text-align: center">
     	<li><span>>></span>                     1.项目立项</li>
 	    <li><span>>></span>                     2.建设工程项目报建</li>
 	    <li><span>>></span>                     3.建设单位招标资格</li>
@@ -254,7 +262,7 @@ var _hmt = _hmt || [];
 		<img src="Assets/images/n1.png" width="171" height="59" alt=""/>
 		</a>
 	</div>
-    <ul class="i_ma clearfix"  id="exampleList">  </ul>
+    <ul class="i_ma clearfix"  id="exampleList" >  </ul>
 </div>
 
 
@@ -337,7 +345,7 @@ function getExample(){
 			//把list对象转换成数组
 			var data2 = eval(data);
 			for(var i in data2){
-			 	html +="<li style='width:340px;'><div class=\"tu\"><a href=\"caseView.html?caseId="+data2[i].id+"\"><img src='/zjhWeb"+data2[i].img+"'style='width:340px;'/></a></div>";
+			 	html +="<li style='width:320px;'><div class=\"tu\"><a href=\"caseView.html?caseId="+data2[i].id+"\"><img src='/zjhWeb"+data2[i].img+"'style='width:320px;'/></a></div>";
 				if(data2[i].description.length>50){
 					html +="<div class=\"des\">"+data2[i].description.substring(0,50)+"......</div>";
 				}else{

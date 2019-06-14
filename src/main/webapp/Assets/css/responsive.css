@@ -110,7 +110,7 @@ head .logo img,.head .logo{height:51px;}
 .i_mc dd ul li.on i{ display:none;}
 .i_mc dd, .i_md dd{ width:100%;}
 .i_mc dt{ width:314px;}
-.i_mc dt img, .i_mc dt{ width:314px; height:320px;}
+.i_mc dt img, .i_mc dt{ width:320px; height:320px;}
 .i_md dt, .i_md dt img{ width:320px; height:230px;}
 .fn_m .f_nav li{ margin-right:2px;}
 .scd_l .s_nav{ width:310px;}
