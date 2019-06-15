@@ -166,7 +166,7 @@ window.onload=function(){
 							}else{
 								html +="<div class=\"des\">"+data2[i].description+"</div>";
 							}
-								html +=" <a href=\"newsView.html?newsId="+data2[i].id+"\" class=\"more\">+ 查看详情</a></dd></dl>"
+								html +=" <a href=\"viewpages/"+data2[i].staticPage+"\" class=\"more\">+ 查看详情</a></dd></dl>"
 						}
 						$("#newsList").append(html);
 						//分页数据加载
