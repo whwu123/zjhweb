@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>行业新闻 湖南中楷众拓项目管理咨询有限公司</title>
+<meta http-equiv="keywords" content="标书制作，标书范本，投标书代写，代做工程预算，代做工程结算">
+<meta name="description" content="湖南中楷众拓项目管理咨询有限公司是一家专注工程类，采购类和服务类三大类工程项目的配套服务公司，涉及业务：标书制作、标书代做、标书代写、工程预算代做、资料整理公务代办，招投标咨询，招投标文件设计及制作，预（结）算及竣工资料的编制，工程图纸晒图等工程项目。" />
+<meta name="author" content="WuChunhui" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Assets/js/js_z.js"></script>
+<script type="text/javascript" src="Assets/js/my.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d36210619c8c062be9c5de38116a9e6f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b1175c88707e55447bebefe85c8f2b39";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/common.css" />
+<link rel="stylesheet" type="text/css" href="Assets/css/my.css" />
+<link rel="Bookmark" href="favicon.ico" >
+<link rel="Shortcut Icon" href="favicon.ico" />
+</head>
+<body>
+  <div id="service">  </div>
+<!--头部-->
+<div style="text-align: right;" id="sc">
+    <a style="cursor: pointer;"  onclick="AddFavorite(window.location,document.title)">加入收藏</a>
+    <a style="cursor: pointer;"  onclick="SetHome(this,window.location)">设置首页</a>&nbsp;
+ </div>
+<div class="header" id="headerDiv">
+	
+</div>
+<!--头部-->
+<!--幻灯片-->
+<div class="banner_s"><img src="Assets/upload/banner_a.jpg" alt=""/></div>
+<div class="pst_bg">
+	<div class="pst">
+    	您当前的位置：
+        <a href="news.html">新闻活动</a>>
+        <a href="news2.html">员工风采</a>
+        
+    </div>
+</div>
+<div class="scd clearfix">
+	<div class="scd_l">
+    	<div class="s_name">
+        	<img src="Assets/images/t6.png" width="138" height="48" alt=""/>
+            <i>&nbsp;</i>
+        </div>
+        <ul class="s_nav">
+        	<li ><a href="news.html">公司新闻</a></li>
+            <li ><a href="news2.html">行业新闻</a></li>
+            <li class="now"><a href="news3.html">员工风采</a></li>
+        </ul>
+        <div style="text-align: center;">
+		    <span>扫二维码了解更多信息</span><br/>
+		       <img src="Assets/upload/code1.jpg" alt="" width="150px"/>
+      	</div>
+    </div>
+    <div class="scd_r">
+    	<div class="r_name"><span>员工风采</span>
+    	<span style="float: right;font-size: 14px;color: black;">
+    				共 <span id="totalCount" style="font-size: 14px"></span> 条，
+    				当前页码 <span id="pageNum" style="font-size: 14px"></span > 
+    				/ <span id="totalPage" style="font-size: 14px"></span> &nbsp;&nbsp;
+    			</span>
+    	</div>
+        <div class="news"  id="newsList">
+        	
+           
+        </div>
+         <div class="pages">
+            	
+            	<a id="first" class="prev" onclick="getPageView(2,'first');">首 页</a>
+                <a id="prev" class="prev" onclick="getPageView(2,'prev');">上一页</a>
+                <a id="next" class="next" onclick="getPageView(2,'next');">下一页</a>
+                <a id="last" class="next" onclick="getPageView(2,'last');">末 页</a>
+            </div>
+    </div>
+</div>
+<div class="fn_bg" id="bottomdiv">
+</div>
+<div class="f_bg">
+	<div class="foot">
+    	<img src="Assets/beian.png" style="margin-top: -3px;"/><span>湘ICP备18002957号  &nbsp;Copyright 2018  技术支持：时光工作室</span><span>网站建设：伍春晖</span><span> <span>联系电话：18665022235</span> </span>
+    </div>
+</div>
+<input type="hidden" value="" id="pageNum_hidden"/>
+<input type="hidden" value="" id="totalPage_hidden"/>
+<script type="text/javascript">
+window.onload=function(){ 
+	$("#xwzx").addClass("now");
+} 
+	$(function(){
+			$('#service').load('top.html');
+			$('#bottomdiv').load('bottom.html');
+			$('#headerDiv').load('header.html');
+			getdata(1,3);
+			//getItems();
+			//getSystemData();
+	});
+		
+	function getPageView(newstype,type){
+				if(type=="first"){
+					getdata(1,newstype);
+				}else if(type == "prev"){
+					var pageNum_hidden = Number($("#pageNum_hidden").val());
+					if(pageNum_hidden<=1){
+						pageNum_hidden= 1;
+					}else{
+						pageNum_hidden=pageNum_hidden-1;
+					}
+					getdata(pageNum_hidden,newstype);
+				}else if(type == "next"){
+					var totalPage =Number($("#totalPage_hidden").val());
+					var pageNum_hidden=Number($("#pageNum_hidden").val())
+					if(pageNum_hidden<totalPage){
+						 pageNum_hidden = pageNum_hidden+Number(1);
+					}else{
+					 	pageNum_hidden = pageNum_hidden
+					}
+						getdata(pageNum_hidden,newstype);
+				}else if(type == "last"){
+					var totalPage = Number($("#totalPage_hidden").val());
+					getdata(totalPage,newstype);
+				}
+		
+		}
+		
+		function getdata(pageNum,newstype){
+				//初始化数据
+				$.ajax({
+					type: "POST",
+			   		url: "news/getNewsList.do",
+			   		data:{pageNum:pageNum,type:newstype},
+					dataType:"json",
+					async: false,
+					success: function(data){
+						$("#newsList").html("");
+						$("#totalCount").html("");
+						$("#pageNum").html("");
+						$("#totalPage").html("");
+						var html ="";
+						//把list对象转换成数组
+						var data2 = eval(data.listData);
+						 for(var i in data2){
+						 	html +="<dl class=\"clearfix\"><dt><a href=\"viewpages/"+data2[i].staticPage+"\"><img src='/zjhWeb"+data2[i].imgpath+"' /></a></dt>";
+							html +=" <dd><div class=\"title\"><a href=\"viewpages/"+data2[i].staticPage+"\">"+data2[i].title+"<em>["+data2[i].showtime+"]</em></a></div>";
+							if(data2[i].content.length>120){
+								html +="<div class=\"des\">"+data2[i].description.substring(0,120)+"......</div>";
+							}else{
+								html +="<div class=\"des\">"+data2[i].description+"</div>";
+							}
+								html +=" <a href=\"viewpages/"+data2[i].staticPage+"\" class=\"more\">+ 查看详情</a></dd></dl>"
+						}
+						$("#newsList").append(html);
+						//分页数据加载
+						$("#totalCount").html(data.totalCount);
+						$("#pageNum").html(data.pageNum);
+						$("#totalPage").html(data.totalPage);
+						$("#totalPage_hidden").val(data.totalPage);
+						$("#pageNum_hidden").val(data.pageNum);
+				 	},
+				});
+		}
+		function getItems(){
+			//初始化首页新闻数据
+			$.ajax({
+				type: "POST",
+		   		url: "index/getItems.do",
+				dataType:"json",
+				async: false,
+				success: function(data){
+					$("#yqlj").html("");
+					var html ="<b>友情链接</b>";
+					 var data2 = eval(data);
+					 for(var i in data2){
+					 	html +="<p><a href=\""+data2[i].fUrl+"\" target=\"_blank\">"+data2[i].fTitle+"</a></p>";
+					}
+					$("#yqlj").append(html);
+			 	}
+			});
+		}
+</script>
+</body>
+</html>
