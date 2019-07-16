@@ -128,7 +128,7 @@ var _hmt = _hmt || [];
 	<script type="text/javascript">
 	$(function(){
 		getItems();
-		//getSystemData();
+		getSystemData();
 	});
 		
 		function getItems(){
@@ -148,18 +148,19 @@ var _hmt = _hmt || [];
 			 	}
 			});
 		}
+		
 		function getSystemData(){
-			/*$.ajax({
+			$.ajax({
 				type: "POST",
 		   		url: "index/getSystemData.do",
 				dataType:"json",
-				data:{"fkey":"gw_text"},
 				async: false,
+				data: {fkey:"web_title"},
 				success: function(data){
-					 var data2 = eval(data);
-					 $("#gw_text").html(data2.fContent)
-				}
-			});*/
+					$(document).attr("title",data.fContent);//修改title值
+					
+			 	}
+			});
 			$.ajax({
 				type: "POST",
 		   		url: "index/getSystemData.do",
