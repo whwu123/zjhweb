@@ -293,7 +293,7 @@ $(function(){
 	$('#headerDiv').load('header.html');
 	getExample();
 	getNews();
-	//getSystemData();
+	getSystemData();
 	//getAffix();
 	$('#owl-demo').owlCarousel({
 		items: 1,
@@ -314,8 +314,8 @@ function getSystemData(){
 		dataType:"json",
 		data: {fkey:"web_title"},
 		success: function(data){
-			$(document).attr("title",data.fContent+"1234");//修改title值
-			$('meta[name="description"]').attr("content","修改描述内容");
+			$(document).attr("title",data.fContent);//修改title值
+			//$('meta[name="description"]').attr("content","修改描述内容");
 	 	}
 	});
 }
