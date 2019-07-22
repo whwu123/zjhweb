@@ -14,11 +14,11 @@ import com.zjh.util.JdbcUtil;
 
 @Repository("ItemsDao")
 public class ItemsDaoImpl implements ItemsDao {
-	private Connection connection;
-	private PreparedStatement ps;
-	private ResultSet rs;
 	@Override
 	public List<Items> getList() {
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Connection connection = null;
 		List<Items> list = new ArrayList<Items>();
 		try {
 			String sql = " select * from items where f_status = 1 and f_type = 1 ORDER BY f_status desc limit 0,5";
@@ -52,6 +52,9 @@ public class ItemsDaoImpl implements ItemsDao {
 	}
 	@Override
 	public Items gtItemsByKey(String fKey) {
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Connection connection = null;
 		Items items = new Items();
 		try {
 			String sql = " select * from items where f_key = ?";
