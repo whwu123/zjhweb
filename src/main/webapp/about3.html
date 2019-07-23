@@ -36,6 +36,15 @@ var _hmt = _hmt || [];
 <link rel="stylesheet" type="text/css" href="Assets/css/my.css" />
 <link rel="Bookmark" href="favicon.ico" >
 <link rel="Shortcut Icon" href="favicon.ico" />
+<style type="text/css">
+	#zbdl{
+	background: url(images/hot.png) no-repeat;
+   /*  position: absolute;
+    top: 5px;
+    right: 17px; */
+    display: inline-block;
+}
+</style>
 </head>
 
 <body>
@@ -46,6 +55,112 @@ var _hmt = _hmt || [];
     <a style="cursor: pointer;"  onclick="SetHome(this,window.location)">设置首页</a>&nbsp;
  </div>
 <div class="header" id="headerDiv">
+	<div class="head clearfix">
+        <!-- <div class="logo"><a href=""><img src="Assets/images/logo.png" alt="湖南中楷众拓项目管理咨询有限公司"/></a></div> -->
+        <div class="logo" >
+        	<img src="Assets/images/2.png" alt="湖南中楷众拓项目管理咨询有限公司"/>
+        </div>
+        <div class="nav_m">
+            <div class="n_icon">导航栏</div>
+            <ul class="nav clearfix">
+               <!--  <li class="now"><a href="http://www.zjhbidding.com">首页</a></li>  -->
+                <li id="sy">
+                	<a href="http://www.zkzthn.com/">首页</a>
+                </li> 
+                
+                <li id="zbdl" >
+                	<a href="zbdl.html" style="font-weight: bolder;color: red">招标代理</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="zbdl.html" style="color: #BD0E2A;">招标代理业务</a></li>
+                                <!-- <li><a href="zbdl2.html" style="color: #BD0E2A;">代做标书流程</a></li>
+                                -->
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+               
+                <li id="zyyw">
+                	<a href="business.html">主营业务</a>
+                	<div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                            	<li><a href="business.html" style="color: #BD0E2A;">项目招标代理</a></li>
+                            	<li><a href="business.html">工程预算</a></li>
+                            	<li><a href="business.html">工程结算</a></li>
+                            	<li><a href="business.html">开竣工资料</a></li>
+                            	<li><a href="business.html">工程技术咨询服务</a></li>
+                            	<li><a href="business.html">工程监理服务</a></li>
+                            	<li><a href="business.html">工程概算编制</a></li>
+                            	<li><a href="business.html">投标书制作</a></li>
+	                            <!-- <li><a href="business.html">工程类标书</a></li>
+	                            <li><a href="business.html">采购类标书</a></li>
+	                            <li><a href="business.html">服务类标书</a></li> -->
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="cgal">
+                	<a href="case.html">成功案例</a>
+                	<div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="affixdown.html">附件下载</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="xwzx" >
+                	<a href="news.html">新闻资讯</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="news.html">公司新闻</a></li>
+                                <li><a href="news2.html">行业新闻</a></li>
+                                <li><a href="news3.html">员工风采</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                 <li id="about" class="now">
+                	<a href="about.html">关于我们</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="about.html">公司简介</a></li>
+                                <li><a href="about3.html">组织架构</a></li>
+                                <!-- <li><a href="about2.html">中楷众拓优势</a></li>
+                                <li><a href="product.html">电力法</a></li>
+                                <li><a href="product2.html">招投标法</a></li>
+                                <li><a href="product3.html">政府采购法</a></li>
+                            	<li><a href="product4.html">投标管理办法</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li id="lxwm">
+                	<a href="contact.html">联系我们</a>
+                    <div class="er">
+                    	<div class="er_m">
+                            <i>&nbsp;</i>
+                            <ul>
+                                <li><a href="contact.html">联系方式</a></li>
+                                <li><a href="book.html">客户留言</a></li>
+                               <!--  <li><a href="https://shop221796420.taobao.com" target="_blank">淘宝店铺</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 <!--头部-->
 <!--幻灯片-->
@@ -100,7 +215,7 @@ var _hmt = _hmt || [];
 $(function(){
 	$('#service').load('top.html');
 	$('#bottomdiv').load('bottom.html');
-	$('#headerDiv').load('header.html');
+	//$('#headerDiv').load('header.html');
 	//getItems();
 	//getSystemData();
 });
@@ -116,9 +231,9 @@ function getSystemData(){
 	 	}
 	});
 }
-window.onload=function(){ 
+/* window.onload=function(){ 
 	$("#about").addClass("now");
-} 
+} */ 
 </script>
 </body>
 </html>
